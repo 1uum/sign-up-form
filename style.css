@@ -1,0 +1,71 @@
+html{
+    min-height: 100%;
+    position: relative;
+    font-family: 'Lato', 'sans-serif';
+}
+
+body{
+    margin: 0;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.side-container{
+    display: flex;
+    background-image: url(ryan-ancill-aJYO8JmVodY-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 500px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.logo{
+    display: flex;
+
+    color: white;
+    font-size: 4em;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.200);
+    width: 100%;
+    padding: 15px 0px 15px;
+    margin-bottom: 200px;
+}
+
+.info-img{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    font-weight: 700;
+    background-color: #20202018;
+    width: 72vw;
+}
+
+.intro{
+    margin: 40px 20px 0px 40px;
+}
