@@ -18,6 +18,7 @@ footer{
 .wrapper{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .side-container{
@@ -26,6 +27,8 @@ footer{
     background-size: cover;
     height: 100vh;
     width: 500px;
+    min-width: 350px;
+    max-height: 100vh;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
@@ -35,7 +38,6 @@ footer{
 
 .logo{
     display: flex;
-
     color: white;
     font-size: 4em;
     font-weight: 700;
@@ -55,17 +57,86 @@ footer{
     position: absolute;
     bottom: 0;
     margin-bottom: 5px;
+    
 }
 
-.form-container{
+.page-container{
     display: flex;
     flex-direction: column;
-    font-size: 1.5em;
-    font-weight: 700;
     background-color: #20202018;
-    width: 72vw;
+    width: 100%;
+    padding: 40px 0px 30px 40px;
 }
 
 .intro{
-    margin: 40px 20px 0px 40px;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.form-container{
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    background-color: #ffffff;
+    margin-left: -40px;
+    width: 100%;
+    padding: 20px 0px 20px 40px;
+    box-shadow: 0px 10px 10px -12px #4d4d4d;
+}
+
+.form{
+    margin-right: 150px;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+label{
+    font-size: 13px;
+    color: #e6a256;
+    display: inline-block;
+    width: 160px;
+    padding: 5px 90px 5px 0px;
+}
+
+input{
+    border: 2px solid #e2ccb2;
+    border-radius: 5px;
+    background-color: #d4d4d41e;
+}
+
+.end-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+button{
+    padding: 6px 8px;
+    width: 140px;
+    margin-bottom: 15px;
+    background-color: #e6a256;
+    border: 2px solid #e2ccb2;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+a{
+    text-decoration: none;
+    color:#e6a256;
+    font-weight: 700;
+}
+
+.footer{
+    display: flex;
+    bottom: 0;
+    margin-bottom: 5px;
+    position: absolute;
 }
