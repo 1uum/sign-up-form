@@ -16,7 +16,7 @@
         </div>
 
         <div class="page-container">
-            <div class="intro">
+            <div class="header">
                 <p>This is not a real online service! You know you need something 
                 <br>
                     like this in your life to kelp you realize your deepest dreams.
@@ -25,21 +25,23 @@
                 
                 You <i>know</i> you want to.
             </div>
-            <div class="form-container">
-                Let's do this!
-                <div class="form">
-                    <label for="first-name">FIRST NAME<input type="text" id="first-name"></label>
-                    <label for="last-name">LAST NAME<input type="text" id="last-name"></label>
-                    <label for="email">EMAIL<input type="email" id="email"></label>
-                    <label for="phone-number">PHONE NUMBER<input type="tel" id="phone-number"></label>
-                    <label for="password">PASSWORD<input type="password" id="password"></label>
-                    <label for="2password">CONFIRM PASSWORD<input type="password" id="2password"></label>
+            <form action="">
+                <div class="form-container">
+                    Let's do this!
+                    <div class="form-space">
+                        <label for="first-name">FIRST NAME<input type="text" id="first-name" required></label>
+                        <label for="last-name">LAST NAME<input type="text" id="last-name" required></label>
+                        <label for="email">EMAIL<input type="email" id="email" required></label>
+                        <label for="phone-number">PHONE NUMBER<input type="tel" id="phone-number" required></label>
+                        <label for="password">PASSWORD<input type="password" id="password" required></label>
+                        <label for="2password">CONFIRM PASSWORD<input type="password" id="2password" required></label>
+                    </div>
                 </div>
-            </div>
-            <div class="end-container">
-                <button>Create Account</button>
-                Already have an account? <a href="">Log In</a> 
-            </div>
+                <div class="end-container">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="">Log In</a> </p> 
+                </div>
+            </form>
             <div class="footer">Made by github.com/1uum/ for The Odin Project</div>
         </div>
     </div>

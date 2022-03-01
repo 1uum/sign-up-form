@@ -68,7 +68,7 @@ footer{
     padding: 40px 0px 30px 40px;
 }
 
-.intro{
+.header{
     font-size: 1.5em;
     font-weight: 700;
     margin-bottom: 40px;
@@ -88,24 +88,28 @@ footer{
     box-shadow: 0px 10px 10px -12px #4d4d4d;
 }
 
-.form{
-    margin-right: 150px;
+.form-space{
     flex-wrap: wrap;
     width: 600px;
+    display:flex;
 }
 
 label{
     font-size: 13px;
     color: #e6a256;
-    display: inline-block;
-    width: 160px;
-    padding: 5px 90px 5px 0px;
+    width: 190px;
+    margin: 5px 90px 5px 0px;
 }
 
 input{
-    border: 2px solid #e2ccb2;
+    border: 1px solid #e2ccb2;
     border-radius: 5px;
     background-color: #d4d4d41e;
+}
+
+input:focus{
+    border: 1px solid #9b5300;
+    box-shadow: 0px 0px 4px 1px #4d4d4d;
 }
 
 .end-container{
@@ -117,7 +121,7 @@ input{
 button{
     padding: 6px 8px;
     width: 140px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     background-color: #e6a256;
     border: 2px solid #e2ccb2;
     border-radius: 5px;
@@ -134,9 +138,21 @@ a{
     font-weight: 700;
 }
 
+a:focus{
+    color: #9b5300;
+}
+
 .footer{
     display: flex;
     bottom: 0;
     margin-bottom: 5px;
     position: absolute;
 }
+
+.error{
+    color: #ff0000;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
